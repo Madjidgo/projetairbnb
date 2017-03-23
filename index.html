@@ -3,28 +3,268 @@
   <head>
     <meta charset="utf-8">
     <title>Airbnb</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
 
   </head>
   <body>
+    <!-- star de header -->
       <header>
-        <figure>
+        <figure class="logo">
           <img src="images/index.png" alt="logo Airbnb">
-          <ul>
-            <li>Devenez hôte</li>
-            <li> Aide</li>
-            <li>Inscription</li>
-            <li>Connexion</li>
-          </ul>
-          <h1><span>Où souhaitez vous aller?</span>Votre prochain voyage commence sur Airbnb</h1>
         </figure>
 
-        <div class="">
+        <h1><span>Où souhaitez vous aller? <br> </span>Votre prochain voyage commence sur Airbnb</h1>
+
+        <nav>
+          <ul>
+            <li >Devenez hôte</li>
+            <li > Aide</li>
+            <li >Inscription</li>
+            <li >Connexion</li>
+          </ul>
+        </nav>
+
+          </header>
+      <!-- end the header -->
+
+      <!-- star div -->
+
+
           <section>
-            
+            <form class="" action="traitement.php" method="post">
+
+              <label for="text">Où</label>
+              <input type="text" name="text" id="text" placeholder="Recherche">
+
+              <label for="text">Où</label>
+              <input type="text" name="text" id="text" placeholder="destination, vile ou adresse">
+
+              <label for="text">Quand</label>
+              <input type="text" name="text" id="text" placeholder="Arrivée Départ">
+
+              <label for="text">Voyageurs</label>
+              <input type="text" name="text" id="text" placeholder="">
+
+            </form>
           </section>
 
+      <!-- end sdiv -->
+
+      <!-- star section -->
+        <div class="container">
+          <section class="sect1">
+
+          <h3>Nouveautés à Harlem</h3>
+
+          <!-- art1  -->
+
+          <article class="art1">
+          <figure>
+            <img src="images/harlemhist.jpg" alt="photo Harlem">
+          </figure>
+          <p><strong>43€ </strong>2 heures Harlem NYC Art & history theater</p>
+        </article>
+
+
+
+        <article class="art1">
+          <figure>
+            <img src="images/streetfashion.jpg" alt="photo street">
+          </figure>
+          <p><strong>238€</strong>2 heures Fashion & Hip Hop</p>
+        </article>
+
+<!-- art1 mob -->
+
+        <article class="art1">
+          <figure>
+            <img src="images/cutsewn.jpg" alt="cutsewn">
+          </figure>
+            <p><strong>56€</strong>2 heures Workshop& Fashion</p>
+        </article>
+
+          <article class="art1">
+          <figure>
+            <img src="images/cutsewn.jpg" alt="cutsewn">
+          </figure>
+        </section>
+      <!-- art1 end -->
+
+
+<!--star section2 -->
+        <section class="sect2">
+        <h3>Réservée à l'instant</h3>
+
+        <!--  star art2  -->
+        <article class="art2">
+        <figure>
+          <img src="images/gay.jpg" alt="gay">
+          <p><strong>72€</strong>2 heures Museum & Comedy</p>
+        </figure>
+      </article>
+
+      <article class="art2">
+        <figure>
+          <img src="images/sport.jpg" alt="sport velo">
+        </figure>
+          <p><strong>72€</strong>Ride to alive DJ mashup set by wait what</p>
+        </article>
+
+        <!-- art2 mob -->
+
+        <article class="art2">
+        <figure>
+          <img src="images/tapalicious.jpg" alt="food tapas">
+        </figure>
+        <p><strong>72€</strong>3 heures Local eateries & Tapas</p>
+      </article>
+
+      <article class="art2">
+        <figure>
+          <img src="images/harlemhist.jpg" alt="photo Harlem">
+        </figure>
+        <p><strong>72€</strong>3 heures Local eateries & Tapas</p>
+      </article>
+      </section>
+
+
+      <section class="sect3">
+      <h3>€xpériences</h3>
+
+<!-- start art3 -->
+      <article class="art3">
+      <figure>
+        <img src="images/sport.jpg" alt="sport">
+      </figure>
+        <p><strong>72€</strong>Ride to alive DJ mashup set by wait what</p>
+      </article>
+
+      <article class="art3">
+      <figure>
+        <img src="images/velo.jpg" alt="velo">
+          <p><strong>72€</strong>Ride to alive velo</p>
+      </figure>
+    </article>
+
+<!-- art3 mobille -->
+
+      <article class="art3">
+      <figure>
+        <img src="images/bouffe.jpg" alt="bouffe">
+      </figure>
+          <p><strong>72€</strong>3 heures Local eateries & Tapas</p>
+        </article>
+
+        <article class="art3">
+      <figure>
+        <img src="images/harlemhist.jpg" alt="photo Harlem">
+      </figure>
+        <p><strong>72€</strong>3 heures Local  & Tapas</p>
+      </article>
+    </section>
+<!-- end  section3 -->
+
+
+<!-- start section4 -->
+    <section  class="sect4">
+    <h3>Logements </h3>
+
+<!-- start nav4 -->
+      <article class="art4">
+    <figure>
+      <img src="images/aptchic.jpg" alt="house">
+    </figure>
+      <p><strong>172€</strong>3 heures Local eateries & Tapas</p>
+    </article>
+
+
+    <article class="art4">
+  <figure>
+    <img src="images/mountain.jpg" alt="mountain">
+  </figure>
+    <p><strong>172€</strong>3 heures Local eateries & Tapas</p>
+  </article>
+
+
+
+  <article class="art4">
+<figure>
+  <img src="images/aptchic.jpg" alt="house">
+</figure>
+  <p><strong>172€</strong>3 heures Local eateries & Tapas</p>
+</article>
+  </section>
+
+  <!--end section4  -->
+
+<!-- start section5 -->
+  <section class="sect5">
+  <h3>Destination à la une</h3>
+
+  <article class="art5">
+  <figure>
+    <img src="images/wao.jpg" alt="Harlem">
+  </figure>
+  <h5>Miami</h5>
+</article>
+
+<article class="art5">
+<figure>
+  <img src="images/wao.jpg" alt="Harlem">
+</figure>
+<h5>Miami</h5>
+</article>
+
+<article class="art5">
+<figure>
+  <img src="images/wao.jpg" alt="Harlem">
+</figure>
+<h5>Miami</h5>
+</article>
+
+<article class="art5">
+<figure>
+  <img src="images/wao.jpg" alt="Harlem">
+</figure>
+<h5>Miami</h5>
+</article>
+
+<article class="art5">
+<figure>
+  <img src="images/wao.jpg" alt="Harlem">
+</figure>
+<h5>Miami</h5>
+</article>
+
+<article class="art5">
+<figure>
+  <img src="images/wao.jpg" alt="Harlem">
+</figure>
+<h5>Miami</h5>
+</article>
+<!-- end section5 -->
+
+
+<!-- start section6 -->
+<section  class="sect6">
+
+  <article>
+  <figure>
+    <img src="images/revenu.jpg" alt="revenu">
+  </figure>
+</article>
+
+  <article class="">
+    <h2>Ouvrez la porte à un voyageur et à une nouvelle vie</h2>
+    <p>gagner de l'argent en accueil des voyageurs</p>
+    <input type="text" name="text" id="text" placeholder="Estimer mes revenus">
+  </article>
+</section>
+
         </div>
-      </header>
+
     </body>
 </html>
