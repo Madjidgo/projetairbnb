@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <title>Airbnb</title>
       <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
   </head>
@@ -29,32 +30,46 @@
       </header>
       <!-- end the header -->
 
-      <!-- start section form-->
-          <section>
-            <form class="" action="traitement.php" method="post">
+      <!-- start container-->
+        <div class="container">
 
-              <label for="text">Où</label>
+
+<!--start form  -->
+            <form action="traitement.php" method="post">
+
+                <section class="tab">
               <input type="text" name="text" id="text" placeholder="Recherche">
+              <i class="material-icons">search</i>
+            </section>
 
+              <section  class="form1">
               <label for="text">Où</label>
               <input type="text" name="text" id="text" placeholder="destination, vile ou adresse">
+            </section>
 
+              <section class="form2">
               <label for="text">Quand</label>
               <input type="text" name="text" id="text" placeholder="Arrivée Départ">
+            </section>
 
+
+              <section class="form3">
               <label for="text">Voyageurs</label>
               <input type="text" name="text" id="text" placeholder="">
+            </section>
 
             </form>
-          </section>
 
-      <!-- end sdiv -->
 
-      <!-- star section -->
+      <!-- end form -->
+
+      <!-- start section -->
         <div class="container">
-          <section class="sect1">
 
           <h3>Nouveautés à Harlem</h3>
+          <section class="sect1">
+
+          <!-- <h3>Nouveautés à Harlem</h3> -->
 
           <!-- art1  -->
 
@@ -74,16 +89,16 @@
           <p><strong>238€</strong>2 heures Fashion & Hip Hop</p>
         </article>
 
-<!-- art1 mob -->
+<!-- art11 mob display:none-->
 
-        <article class="art1">
+        <article class="art11">
           <figure>
             <img src="images/cutsewn.jpg" alt="cutsewn">
           </figure>
             <p><strong>56€</strong>2 heures Workshop& Fashion</p>
         </article>
 
-          <article class="art1">
+          <article class="art11">
           <figure>
             <img src="images/cutsewn.jpg" alt="cutsewn">
           </figure>
@@ -128,41 +143,7 @@
       </section>
 
 
-      <section class="sect3">
-      <h3>€xpériences</h3>
 
-<!-- start art3 -->
-      <article class="art3">
-      <figure>
-        <img src="images/sport.jpg" alt="sport">
-      </figure>
-        <p><strong>72€</strong>Ride to alive DJ mashup set by wait what</p>
-      </article>
-
-      <article class="art3">
-      <figure>
-        <img src="images/velo.jpg" alt="velo">
-          <p><strong>72€</strong>Ride to alive velo</p>
-      </figure>
-    </article>
-
-<!-- art3 mobille -->
-
-      <article class="art3">
-      <figure>
-        <img src="images/bouffe.jpg" alt="bouffe">
-      </figure>
-          <p><strong>72€</strong>3 heures Local eateries & Tapas</p>
-        </article>
-
-        <article class="art3">
-      <figure>
-        <img src="images/harlemhist.jpg" alt="photo Harlem">
-      </figure>
-        <p><strong>72€</strong>3 heures Local  & Tapas</p>
-      </article>
-    </section>
-<!-- end  section3 -->
 
 
 <!-- start section4 -->
@@ -261,7 +242,65 @@
   </article>
 </section>
 
-        </div>
+<!-- end section6 -->
 
+        </div>
+<!--end container  -->
+
+<!-- start footer -->
+
+<footer>
+<form>
+  <input type="text" name="text" id="text" placeholder="Français">
+  <input type="text" name="text" id="text" placeholder="EUR">
+</form>
+
+<nav class="nav2">
+  Airbnb
+  <li><a href="#">A propos</a></li>
+  <li><a href="#">Carrières</a></li>
+  <li><a href="#">Presse</a></li>
+  <li><a href="#">Régles</a></li>
+  <li><a href="#">Aide</a></li>
+  <li><a href="#">diversité et intégration</a></li>
+</nav>
+
+<nav class="nav3">
+  Découvrir
+  <li><a href="#">Confiance et sécurité</a></li>
+  <li><a href="#">Crédit voyage</a></li>
+  <li><a href="#">Airbnb Citizen</a></li>
+  <li><a href="#">Voyage d'affaire</a></li>
+  <li><a href="#">Guides</a></li>
+</nav>
+
+<nav class="nav2">
+  Hébergement
+  <li><a href="#">Pourquoi être hôte</a></li>
+  <li><a href="#">hospitalité</a></li>
+  <li><a href="#">Hébergement responsable</a></li>
+</nav>
+
+<section class="footer">
+
+  <figure class="logo">
+    <img src="images/index.png" alt="logo Airbnb">
+  </figure>
+
+  <p>Airbnb,Inc.</p>
+
+  <nav>
+    <li><a href="#">conditions générales et confidentialité</a></li>
+
+    <figure>
+    <a href="#"><img src="images/fw.jpe" alt="facebook"></a>
+    <a href="#"><img src="images/fw.jpe" alt="facebook"></a>
+    <a href="#"><img src="images/fw.jpe" alt="facebook"></a>
+    </figure>
+  </nav>
+</section>
+</div>
+
+</footer>
     </body>
 </html>
