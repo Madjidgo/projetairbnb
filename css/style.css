@@ -59,7 +59,7 @@ header h1 span{
     display: none;
   }
 
-  form aside, nav,.art11{
+  form aside, nav,.art11, .art22,.art33, .art44{
     display: none;
   }
   /*end rules vommun*/
@@ -70,31 +70,44 @@ img{
   height: 220px;
 }
 
+
 .container {
   margin-top: 4em;
   /*display: flex;*/
 
 }
-.art1{
+.art1,.art2{
   justify-content: space-around;
   width: 41%;
   margin: 4%;
 }
-.art1 p{
+.art1 p,.art2 p .art3 p{
   color:#484848 ;
 }
 
-.sect1{
+.sect1,.sect2, .sect3, .sect4{
   display: flex;
   width: 100%;
 }
-h3{
+
+h3,h2{
   margin-left: 3%;
   padding: 0.5em;
   color: #484848 ;
-
+}
+ .art3 img{
+   width: 100%;
+   margin-left: 3%;
+ }
+.art4 img{
+  width: 90%;
+  height: 2%;
+  margin-left: 3%;
 }
 
+.sect5 img{
+  width: 100%;
+}
 
 
 
