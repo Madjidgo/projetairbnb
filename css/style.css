@@ -139,7 +139,7 @@ h3,h2, .art5 p{
   font-size: 16px;
 }
 .footer{
-  
+
   margin-left: 3%;
   margin-top: 2em;
   border-top: 1px solid #76768B;
@@ -168,6 +168,7 @@ h3,h2, .art5 p{
 .footer img{
   width: 14px;
   height: 14px;
+
 }
 
 
@@ -180,9 +181,70 @@ h3,h2, .art5 p{
 }
 .footer p{
   float: left;
-  background-color: red;
-  margin-top: 0.5em;
 
+  margin-top: 0.5em;
+}
+
+
+/*tablette*/
+
+@media (min-width:768px) {
+
+    header{
+      display: flex;
+
+  }
+
+  header img{
+    width: 29px;
+    height: 31px;
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+
+  header h1{
+    width: 728px;
+    height: 184px;
+
+    /*margin-left: 15%;*/
+    margin-top: 2em;
+
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    font-size: 48px ;
+    line-height: 56px ;
+    letter-spacing: -0.8px ;
+    color: #484848 ;
+    font-weight: 200 ;
+  }
+
+  header ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50%;
+    font-size: 0.8em;
+
+ }
+
+ header li{
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+header a{
+  color:#484848;
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+
+.tab{
+  display: none;
+}
+
+
+nav,.form1,.form2,.form3{
+  display: block;
+}
 }
 
 
