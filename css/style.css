@@ -118,7 +118,7 @@ h3,h2, .art5 p{
   margin-left: 3%;
   margin-top: 1em;
 }
-footer{
+.footer{
   width: 100%;
   height: 260px;
 }
@@ -138,18 +138,53 @@ footer{
   text-transform: capitalize;
   font-size: 16px;
 }
+.footer{
+  
+  margin-left: 3%;
+  margin-top: 2em;
+  border-top: 1px solid #76768B;
+  padding: 1em;
 
 
-footer img{
+}
+
+.footer .logo img{
   width: 21px;
   height: 21px;
-  display: flex;
+  float: left;
+  /*vertical-align: top;*/
+
+
 
 }
-h6{
-  color: #DBDBDB;
+ .footer h5{
+  color: #76768B;
+  /*display: inline-block;*/
   display: flex;
 }
+.nav5{
+  background-color: red;
+}
+.footer img{
+  width: 14px;
+  height: 14px;
+}
+
+
+.footer a{
+  text-decoration: none;
+  color:#76768B;
+}
+.footer span{
+  margin-left: 1em;
+}
+.footer p{
+  float: left;
+  background-color: red;
+  margin-top: 0.5em;
+
+}
+
 
 
 
