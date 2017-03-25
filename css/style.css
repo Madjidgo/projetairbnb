@@ -4,6 +4,12 @@
 body{
   padding:0;
 }
+{
+  width: 100%;
+}
+@media (min-width:360px) {
+
+
 /*header*/
 header img{
   width: 25px;
@@ -52,14 +58,14 @@ header h1 span{
 }
 
 
-/*Mobile first */
+
 
 /*rules commun*/
   .form1,.form2,.form3{
     display: none;
   }
 
-  form aside, nav,.art11, .art22,.art33, .art44,.nav2, .nav3, .nav4{
+  form aside, nav,.art11,.art111, .art22,.art222,.art33,.art333, .art44,.art444,.nav2, .nav3, .nav4{
     display: none;
   }
   /*end rules vommun*/
@@ -76,7 +82,7 @@ img{
   /*display: flex;*/
 
 }
-.art1,.art2{
+.art1,.art11,.art2,.art22{
   justify-content: space-around;
   width: 41%;
   margin: 4%;
@@ -184,6 +190,7 @@ h3,h2, .art5 p{
 
   margin-top: 0.5em;
 }
+}
 
 
 /*tablette*/
@@ -202,17 +209,26 @@ h3,h2, .art5 p{
     margin-top: 1em;
   }
 
-  header h1{
-    width: 728px;
-    height: 184px;
+  header h1 span{
+   /*font-size: 36px;*/
+   letter-spacing: -0.8px;
+   font-weight: bold;
+   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+   color:#ff5A5f;
+   }
 
-    /*margin-left: 15%;*/
-    margin-top: 2em;
+
+  header h1{
+    /*width: 650px;
+    height: 185px;
+
+    margin-left: 15%;
+    margin-top: 2.6em;*/
 
     font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
-    font-size: 48px ;
+    /*font-size: 48px ;
     line-height: 56px ;
-    letter-spacing: -0.8px ;
+    letter-spacing: -0.8px ;*/
     color: #484848 ;
     font-weight: 200 ;
   }
@@ -220,21 +236,21 @@ h3,h2, .art5 p{
   header ul{
     display: flex;
     justify-content: flex-end;
-    margin-left: 50%;
+    margin-left: 60%;
     font-size: 0.8em;
 
  }
 
  header li{
   display: flex;
-  padding: 1em;
+  padding: 1.5em;
   justify-content: space-between;
 }
 
 header a{
   color:#484848;
   text-decoration: none;
-  margin-left: 0.5em;
+  /*margin-left: em;*/
 }
 
 .tab{
@@ -242,9 +258,26 @@ header a{
 }
 
 
-nav,.form1,.form2,.form3{
+nav,.form1,.form2,.form3,.art11,.art22,.art33,.art44{
   display: block;
 }
+form{
+  display: flex;
+  width: 720px;
+  height: 81px;
+
+}
+.form1,.form2,.form3{
+  border: 1px solid #DCE0E0;
+  padding:0.5em;
+
+
+
+}.form1 input,.form2 input,.form3 input{
+  border: none;
+}
+
+
 }
 
 
