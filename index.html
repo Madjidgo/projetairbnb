@@ -12,20 +12,23 @@
     <!-- start de header -->
       <header>
 
+        <div class="headertpc">
+
           <figure class="logo">
             <img src="images/index.png" alt="logo Airbnb">
           </figure>
 
-          <h1><span>Où souhaitez vous aller?</span>Votre prochain voyage commence sur Airbnb</h1>
-
-          <nav>
+          <nav class="navh">
             <ul>
-              <li > <a href="#"> Devenez hôte</a></li>
-              <li > <a href="#">Aide</a></li>
-              <li  class="li"> <a href="#">Inscription</a></li>
-              <li  class="li"> <a href="#">Connexion</a></li>
+              <li><a href="#">Hôte</a></li>
+              <li><a href="#">Aide</a></li>
+              <li><a href="#">Inscription</a></li>
+              <li><a href="#">Connexion</a></li>
             </ul>
           </nav>
+        </div>
+
+          <h1><span>Où souhaitez vous aller?</span> Votre prochain voyage commence sur Airbnb</h1>
 
       </header>
       <!-- end the header -->
@@ -35,28 +38,29 @@
 
 
 <!--start form  -->
-            <form action="traitement.php" method="post">
+            <form action="index.html" method="post">
 
-                <section class="tab">
-              <input type="text" name="text" id="text" placeholder="Recherche">
+            <section class="tab">
+              <!-- <input type="text" name="text" id="text" placeholder="Recherche"> -->
               <i class="material-icons">search</i>
             </section>
 
               <section  class="form1">
-              <label for="text">Où</label>
-              <input type="text" name="text" id="text" placeholder="Destination, vile ou adresse">
-            </section>
+                <label for="text">Où</label>
+                <input type="text" name="text" id="text" placeholder="Destination, vile ou adresse">
+              </section>
 
               <section class="form2">
-              <label for="text">Quand</label>
-              <input type="text" name="text" id="text" placeholder="Arrivée Départ">
-            </section>
+                <label for="text">Quand</label>
+                <input type="text" name="text" id="text" placeholder="Arrivée Départ">
+              </section>
 
 
               <section class="form3">
-              <label for="text">Voyageurs</label>
-              <input type="text" name="text" id="text" placeholder="">
-            </section>
+                <label for="text">Voyageurs</label>
+                <input type="text" name="text" id="text" placeholder="1 voyageur">
+                <button type="button" name="button"><i class="material-icons">search</i></button>
+              </section>
 
             </form>
 
@@ -73,7 +77,7 @@
 
           <!-- art1  -->
 
-          <article class="art1">
+        <article class="art1">
           <figure>
             <img src="images/harlemhist.jpg" alt="photo Harlem">
           </figure>
@@ -102,6 +106,8 @@
           <figure>
             <img src="images/cutsewn.jpg" alt="cutsewn">
           </figure>
+            <p><strong>56€</strong>2 heures Workshop& Fashion</p>
+        </article>
         </section>
       <!-- art1 end -->
 
@@ -147,7 +153,7 @@
 
 
 
-<!-- start section4 -->
+<!-- start section3 -->
     <h3>Logements </h3>
     <section  class="sect3">
 
@@ -178,9 +184,9 @@
 </article>
   </section>
 
-  <!--end section4  -->
+  <!--end section3  -->
 
-<!-- start section5 -->
+<!-- start section4 -->
   <h3>Destination à la une</h3>
   <section class="sect4">
 
@@ -228,10 +234,10 @@
 </article>
 
 </section>
-<!-- end section5 -->
+<!-- end section4 -->
 
 
-<!-- start section6 -->
+<!-- start section5 -->
 <section  class="sect5">
 
   <article>
@@ -247,7 +253,7 @@
   </article>
 </section>
 
-<!-- end section6 -->
+<!-- end section5 -->
 
         </div>
 <!--end container  -->
@@ -255,10 +261,16 @@
 <!-- start footer -->
 
 <footer>
+  <div class="containerfoot">
+
+
 <!-- <form class="formfooter">
   <input type="text" name="text" id="text" placeholder="Français">
   <input type="text" name="text" id="text" placeholder="EUR">
 </form> -->
+<div class="footerm">
+
+
 <section class="sectfoot">
 <select  class="formfooter" name="select">
   <option value="valeur1">Algérie</option>
@@ -273,47 +285,63 @@
 </select>
 </section>
 
+</div>
+
+<div class="footerpc">
+
+
 <nav class="nav2">
-  Airbnb
+    <ul>Airbnb
   <li><a href="#">A propos</a></li>
   <li><a href="#">Carrières</a></li>
   <li><a href="#">Presse</a></li>
   <li><a href="#">Régles</a></li>
   <li><a href="#">Aide</a></li>
-  <li><a href="#">diversité et intégration</a></li>
+  <li><a href="#">diversité et <br> intégration</a></li>
+</ul>
 </nav>
 
 <nav class="nav3">
-  Découvrir
+  <ul>Découvrir
   <li><a href="#">Confiance et sécurité</a></li>
   <li><a href="#">Crédit voyage</a></li>
   <li><a href="#">Airbnb Citizen</a></li>
   <li><a href="#">Voyage d'affaire</a></li>
   <li><a href="#">Guides</a></li>
+  </ul>
 </nav>
 
 <nav class="nav4">
-  Hébergement
+  <ul>Hébergement
   <li><a href="#">Pourquoi être hôte</a></li>
   <li><a href="#">hospitalité</a></li>
   <li><a href="#">Hébergement responsable</a></li>
+</ul>
 </nav>
+</div>
 
 <section class="footer">
+  <article class="end1">
+
+
   <figure class="logo">
     <img src="images/index.png" alt="logo Airbnb">
   </figure>
 
     <h5> Airbnb,Inc.</h5>
+  </article>
     <!-- <span><a href="#">Conditions Confidentialité</a></span> -->
+    <article class="end2">
+
     <p> <a href="#">Conditions Confidentialité</a></p>
     <figure>
     <a href="#"><img src="images/tx.png" alt="twitter"></a>
     <a href="#"><img src="images/in.png" alt="Linkein"></a>
     <a href="#"><img src="images/f.png" alt="facebook"></a>
     </figure>
-
+    </article>
   </section>
+</div>
   </footer>
 </body>
 </html>
